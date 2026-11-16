@@ -21,12 +21,17 @@ This project aims to develop an AI-powered Security Operations Center (SOC) that
 - AI/LLM API
 
 ## Project Modules
-1. Security Log Collection
-2. Threat Detection
-3. Machine Learning Analysis
-4. AI Incident Analysis
-5. Automated Incident Response
-6. SOC Dashboard
+## Key Features
+
+- **Security Log Monitoring:** Collect and display security events.
+- **Threat Detection:** Identify suspicious login attempts and activities.
+- **Threat Classification:** Categorize threats based on severity (High, Medium, Low).
+- **Attack Analytics:** Visualize threat patterns and security statistics.
+- **AI Incident Analysis:** Generate insights and analysis of detected threats.
+- **Incident Management:** Track and manage security incidents.
+- **Incident Response:** Provide recommended actions for detected threats.
+- **Security Reports:** Generate and download security reports.
+- **Interactive SOC Dashboard:** Monitor security information through a Streamlit interface.
 
 ## Development Status
 🚧 Project setup and development in progress.
