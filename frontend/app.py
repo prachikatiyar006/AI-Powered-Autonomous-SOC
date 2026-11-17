@@ -7,10 +7,10 @@ import re
 from io import BytesIO
 from datetime import datetime
 
-from log_collector import collect_logs
-from threat_detection import detect_threats
-from incident_response import respond_to_incidents
-from ai_analysis import analyze_incidents
+from backend.log_collector import collect_logs
+from backend.threat_detection import detect_threats
+from backend.incident_response import respond_to_incidents
+from backend.ai_analysis import analyze_incidents
 
 
 # --------------------------------------------------

@@ -14,7 +14,7 @@ def detect_threats(logs):
 
 
 if __name__ == "__main__":
-    from log_collector import collect_logs
+    from backend.log_collector import collect_logs
 
     logs = collect_logs()
     threats = detect_threats(logs)

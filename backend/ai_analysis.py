@@ -20,8 +20,8 @@ def analyze_incidents(threats):
 
 
 if __name__ == "__main__":
-    from log_collector import collect_logs
-    from threat_detection import detect_threats
+    from backend.log_collector import collect_logs
+    from backend.threat_detection import detect_threats
 
     logs = collect_logs()
     threats = detect_threats(logs)
